@@ -37,10 +37,10 @@ export default function ProductListingPage() {
             <div className={styles.filterSection}>
                 <h1>QUICKENSOL</h1>
                 <div className={styles.cartAndFilter}>
-                        <i className={styles.cart}>
+                        <div className={styles.cart}>
                             <FaBagShopping />
                             {cartItems.length > 0 && <span className={styles.badge}>{cartItems.length}</span>}
-                        </i>
+                        </div>
                     <CategoryFilter
                         categories={categories}
                         selectedCategory={selectedCategory}

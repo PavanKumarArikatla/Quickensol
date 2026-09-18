@@ -1,7 +1,14 @@
-export default function CategoryFilter({ categories, selectedCategory, onCategoryChange }) {
+import styles from "./CategoryFilter.module.css";
+
+export default function CategoryFilter({
+    categories,
+    selectedCategory,
+    onCategoryChange,
+}) {
     return (
-        <div>
+        <div className={styles.categoryFilter}>
             <label htmlFor="category">Filter by Category:</label>
+
             <select
                 id="category"
                 value={selectedCategory}
