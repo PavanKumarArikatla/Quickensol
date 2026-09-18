@@ -1,0 +1,22 @@
+.button{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.primary{
+    background-color: #3ba95e;
+}
+
+.secondary{
+    background-color: rgb(233, 227, 207);
+    color: #000;
+}
+
+.danger{
+    background-color: #f47375;
+}
