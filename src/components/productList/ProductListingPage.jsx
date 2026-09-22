@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CategoryFilter from "../CategoryFilter/CategoryFilter";
+import CategoryFilter from "../categoryFilter/CategoryFilter";
 import ProductCard from "../../components/productCard/ProductCard";
 import useFetch from "../../hooks/Fetch";
 import getProducts from "../../apis/getProducts";
